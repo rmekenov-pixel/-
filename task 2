@@ -1,0 +1,47 @@
+Запрос:
+GET /api/v1/partner-stores
+Authorization: Bearer {access_token}
+
+Ответ в соответсвии с макетом:
+
+json
+{
+  "partner-stores": [
+    {
+      "id": "store_001",
+      "name": "METRO",
+      "logo_url": "https://cdn.petrushka.ru/partners/metro.png",
+      "delivery_label": "Ближайшая доставка",
+      "delivery_time": "сегодня 21:00–23:00",
+      "delivery_highlight": null,
+      "external_url": "https://metro-cc.ru/?utm_source=petrushka"
+    },
+    {
+      "id": "store_002",
+      "name": "Ашан",
+      "logo_url": "https://cdn.petrushka.ru/partners/auchan.png",
+      "delivery_label": "Ближайшая доставка",
+      "delivery_time": "сегодня 18:00–20:00",
+      "delivery_highlight": null,
+      "external_url": "https://auchan.ru/?utm_source=petrushka"
+    },
+    {
+      "id": "store_003",
+      "name": "ВкусВилл",
+      "logo_url": "https://cdn.petrushka.ru/partners/vkusvill.png",
+      "delivery_label": "Быстрая доставка",
+      "delivery_time": null,
+      "delivery_highlight": "от 20 до 60 минут",
+      "external_url": "https://vkusvill.ru/?utm_source=petrushka"
+    },
+    {
+      "id": "store_004",
+      "name": "ВИКТОРИЯ",
+      "logo_url": "https://cdn.petrushka.ru/partners/victoria.png",
+      "delivery_label": "Ближайшая доставка",
+      "delivery_time": "сегодня 20:00–22:00",
+      "delivery_highlight": null,
+      "external_url": "https://victoria-pl.ru/?utm_source=petrushka"
+    }
+  ]
+}
